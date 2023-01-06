@@ -54,7 +54,7 @@ export default class Game {
         this.activePiece.y += 1;
 
         if (this.hasCollision()) {
-            this.activePiece.y -= 1;
+            this.activePiece.y -= 1; 
             this.lockPiece();
         }
     };
